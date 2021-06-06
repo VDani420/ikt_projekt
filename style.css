@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap%27);')
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap%27);');
 .kave{
     color: #1f5b25;
     border: 1px solid #1f5b25;
@@ -7,9 +7,84 @@
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    background: white;
 }
 h1{
     font-family: 'Fredericka the Great', cursive;
     color: #1f5b25;
     text-align: center;
+}
+.kave:hover{
+    box-shadow: 0 0 5px #1f5b25;
+    cursor:pointer;
+}
+
+body{
+    background: #fbefdb;
+}
+
+nav{
+    background: #1f5b25;
+    padding:15px;
+    position: fixed;
+    z-index: 1;
+}
+
+a{
+    color:white;
+    margin: 15px;
+}
+
+a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.logo{
+    font-size: 1.5em;
+}
+
+nav img{
+    width:40px;
+    fill:white;
+}
+.banner{
+    background-image: url(képek/coffe.jpg);
+    height:300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.meret{
+    width: 20px;
+    height: 20px;
+}
+
+
+footer{
+    background: #1f5b25;
+    padding:15px;  
+}
+
+li{
+    list-style-type: none;
+}
+
+.igen{
+    width: 200px;
+    height: 30px;
+    background-color: white;
+}
+.nem{
+    width: 110px;
+    height: 30px;
+    background-color:green;
+}
+
+#napiajanlat{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right:20px;
+    top:10px;
 }
